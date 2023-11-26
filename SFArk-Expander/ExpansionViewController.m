@@ -23,7 +23,8 @@
 
 - (void)expansionController:(ExpansionController *)controller didReceiveMessage:(NSString *)message
 {
-  NSDictionary *attributes = @{NSFontAttributeName: [NSFont systemFontOfSize:[NSFont systemFontSize]]};
+  NSDictionary *attributes = @{NSFontAttributeName: [NSFont systemFontOfSize:[NSFont systemFontSize]],
+                               NSForegroundColorAttributeName: [NSColor textColor]};
   static NSDateFormatter *timeFormatter = nil;
   static dispatch_once_t onceToken;
   dispatch_once(&onceToken, ^{
