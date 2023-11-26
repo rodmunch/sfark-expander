@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B63C18B81B40611E00EA5D8A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B63C18B71B40611E00EA5D8A /* Credits.rtf */; };
+		B6962F291B25BB390077CD5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6962F281B25BB390077CD5D /* AppDelegate.m */; };
+		B6962F2B1B25BB390077CD5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6962F2A1B25BB390077CD5D /* main.m */; };
+		B6962F2E1B25BB390077CD5D /* ExpansionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6962F2D1B25BB390077CD5D /* ExpansionViewController.m */; };
+		B6962F301B25BB390077CD5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6962F2F1B25BB390077CD5D /* Images.xcassets */; };
+		B6962F331B25BB390077CD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6962F311B25BB390077CD5D /* Main.storyboard */; };
+		B6962F521B25BBC70077CD5D /* sfklCoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6962F4A1B25BBC70077CD5D /* sfklCoding.cpp */; };
+		B6962F531B25BBC70077CD5D /* sfklCrunch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6962F4B1B25BBC70077CD5D /* sfklCrunch.cpp */; };
+		B6962F541B25BBC70077CD5D /* sfklDiff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6962F4C1B25BBC70077CD5D /* sfklDiff.cpp */; };
+		B6962F551B25BBC70077CD5D /* sfklFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6962F4D1B25BBC70077CD5D /* sfklFile.cpp */; };
+		B6962F561B25BBC70077CD5D /* sfklLPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6962F4E1B25BBC70077CD5D /* sfklLPC.cpp */; };
+		B6962F571B25BBC70077CD5D /* sfklString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6962F4F1B25BBC70077CD5D /* sfklString.cpp */; };
+		B6962F581B25BBC70077CD5D /* sfklZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6962F501B25BBC70077CD5D /* sfklZip.cpp */; };
+		B6962F5B1B25BCD50077CD5D /* ExpansionController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6962F5A1B25BCD50077CD5D /* ExpansionController.mm */; };
+		B6962F621B25E7060077CD5D /* ExpansionDropTargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6962F611B25E7060077CD5D /* ExpansionDropTargetView.m */; };
+		B6D5CD5B1B29E83900CBA068 /* SFArk_Expander_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5CD5A1B29E83900CBA068 /* SFArk_Expander_Tests.m */; };
+		B6D5CD621B29E85F00CBA068 /* Blanchet-1720.sfArk in Resources */ = {isa = PBXBuildFile; fileRef = B6D5CD611B29E85F00CBA068 /* Blanchet-1720.sfArk */; };
+		B6D5CD651B29EC2800CBA068 /* Blanchet-1720.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = B6D5CD631B29E90200CBA068 /* Blanchet-1720.sf2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6D5CD5C1B29E83900CBA068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6962F1A1B25BB390077CD5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6962F211B25BB390077CD5D;
+			remoteInfo = "SFArk-Expander";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B63C18B61B405B7400EA5D8A /* SFArk-Expander.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFArk-Expander.entitlements"; sourceTree = "<group>"; };
+		B63C18B71B40611E00EA5D8A /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		B6962F221B25BB390077CD5D /* SFArk-Expander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFArk-Expander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6962F261B25BB390077CD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6962F271B25BB390077CD5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6962F281B25BB390077CD5D /* AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6962F2A1B25BB390077CD5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6962F2C1B25BB390077CD5D /* ExpansionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpansionViewController.h; sourceTree = "<group>"; };
+		B6962F2D1B25BB390077CD5D /* ExpansionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpansionViewController.m; sourceTree = "<group>"; };
+		B6962F2F1B25BB390077CD5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6962F321B25BB390077CD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6962F491B25BBC70077CD5D /* sfArkLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sfArkLib.h; sourceTree = "<group>"; };
+		B6962F4A1B25BBC70077CD5D /* sfklCoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sfklCoding.cpp; sourceTree = "<group>"; };
+		B6962F4B1B25BBC70077CD5D /* sfklCrunch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sfklCrunch.cpp; sourceTree = "<group>"; };
+		B6962F4C1B25BBC70077CD5D /* sfklDiff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sfklDiff.cpp; sourceTree = "<group>"; };
+		B6962F4D1B25BBC70077CD5D /* sfklFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sfklFile.cpp; sourceTree = "<group>"; };
+		B6962F4E1B25BBC70077CD5D /* sfklLPC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sfklLPC.cpp; sourceTree = "<group>"; };
+		B6962F4F1B25BBC70077CD5D /* sfklString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sfklString.cpp; sourceTree = "<group>"; };
+		B6962F501B25BBC70077CD5D /* sfklZip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sfklZip.cpp; sourceTree = "<group>"; };
+		B6962F511B25BBC70077CD5D /* wcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wcc.h; sourceTree = "<group>"; };
+		B6962F591B25BCD50077CD5D /* ExpansionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpansionController.h; sourceTree = "<group>"; };
+		B6962F5A1B25BCD50077CD5D /* ExpansionController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ExpansionController.mm; sourceTree = "<group>"; };
+		B6962F5C1B25DBDE0077CD5D /* COPYING */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = COPYING; sourceTree = "<group>"; };
+		B6962F5D1B25DBDE0077CD5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B6962F601B25E7060077CD5D /* ExpansionDropTargetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpansionDropTargetView.h; sourceTree = "<group>"; };
+		B6962F611B25E7060077CD5D /* ExpansionDropTargetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpansionDropTargetView.m; sourceTree = "<group>"; };
+		B6D5CD561B29E83900CBA068 /* SFArk-Expander Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SFArk-Expander Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D5CD591B29E83900CBA068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D5CD5A1B29E83900CBA068 /* SFArk_Expander_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFArk_Expander_Tests.m; sourceTree = "<group>"; };
+		B6D5CD611B29E85F00CBA068 /* Blanchet-1720.sfArk */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blanchet-1720.sfArk"; sourceTree = "<group>"; };
+		B6D5CD631B29E90200CBA068 /* Blanchet-1720.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blanchet-1720.sf2"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6962F1F1B25BB390077CD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5CD531B29E83900CBA068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6962F191B25BB390077CD5D = {
+			isa = PBXGroup;
+			children = (
+				B6962F241B25BB390077CD5D /* SFArk-Expander */,
+				B6D5CD571B29E83900CBA068 /* SFArk-Expander Tests */,
+				B6962F231B25BB390077CD5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6962F231B25BB390077CD5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6962F221B25BB390077CD5D /* SFArk-Expander.app */,
+				B6D5CD561B29E83900CBA068 /* SFArk-Expander Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6962F241B25BB390077CD5D /* SFArk-Expander */ = {
+			isa = PBXGroup;
+			children = (
+				B63C18B61B405B7400EA5D8A /* SFArk-Expander.entitlements */,
+				B6962F481B25BB7A0077CD5D /* sfArkLib */,
+				B6962F271B25BB390077CD5D /* AppDelegate.h */,
+				B6962F281B25BB390077CD5D /* AppDelegate.m */,
+				B6962F2C1B25BB390077CD5D /* ExpansionViewController.h */,
+				B6962F2D1B25BB390077CD5D /* ExpansionViewController.m */,
+				B6962F2F1B25BB390077CD5D /* Images.xcassets */,
+				B6962F311B25BB390077CD5D /* Main.storyboard */,
+				B6962F251B25BB390077CD5D /* Supporting Files */,
+				B6962F591B25BCD50077CD5D /* ExpansionController.h */,
+				B6962F5A1B25BCD50077CD5D /* ExpansionController.mm */,
+				B6962F601B25E7060077CD5D /* ExpansionDropTargetView.h */,
+				B6962F611B25E7060077CD5D /* ExpansionDropTargetView.m */,
+			);
+			path = "SFArk-Expander";
+			sourceTree = "<group>";
+		};
+		B6962F251B25BB390077CD5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B63C18B71B40611E00EA5D8A /* Credits.rtf */,
+				B6962F261B25BB390077CD5D /* Info.plist */,
+				B6962F2A1B25BB390077CD5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6962F481B25BB7A0077CD5D /* sfArkLib */ = {
+			isa = PBXGroup;
+			children = (
+				B6962F5C1B25DBDE0077CD5D /* COPYING */,
+				B6962F5D1B25DBDE0077CD5D /* README.md */,
+				B6962F491B25BBC70077CD5D /* sfArkLib.h */,
+				B6962F4A1B25BBC70077CD5D /* sfklCoding.cpp */,
+				B6962F4B1B25BBC70077CD5D /* sfklCrunch.cpp */,
+				B6962F4C1B25BBC70077CD5D /* sfklDiff.cpp */,
+				B6962F4D1B25BBC70077CD5D /* sfklFile.cpp */,
+				B6962F4E1B25BBC70077CD5D /* sfklLPC.cpp */,
+				B6962F4F1B25BBC70077CD5D /* sfklString.cpp */,
+				B6962F501B25BBC70077CD5D /* sfklZip.cpp */,
+				B6962F511B25BBC70077CD5D /* wcc.h */,
+			);
+			path = sfArkLib;
+			sourceTree = "<group>";
+		};
+		B6D5CD571B29E83900CBA068 /* SFArk-Expander Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5CD5A1B29E83900CBA068 /* SFArk_Expander_Tests.m */,
+				B6D5CD581B29E83900CBA068 /* Supporting Files */,
+			);
+			path = "SFArk-Expander Tests";
+			sourceTree = "<group>";
+		};
+		B6D5CD581B29E83900CBA068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5CD631B29E90200CBA068 /* Blanchet-1720.sf2 */,
+				B6D5CD611B29E85F00CBA068 /* Blanchet-1720.sfArk */,
+				B6D5CD591B29E83900CBA068 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6962F211B25BB390077CD5D /* SFArk-Expander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6962F421B25BB390077CD5D /* Build configuration list for PBXNativeTarget "SFArk-Expander" */;
+			buildPhases = (
+				B6962F1E1B25BB390077CD5D /* Sources */,
+				B6962F1F1B25BB390077CD5D /* Frameworks */,
+				B6962F201B25BB390077CD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFArk-Expander";
+			productName = "SFArk-Expander";
+			productReference = B6962F221B25BB390077CD5D /* SFArk-Expander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6D5CD551B29E83900CBA068 /* SFArk-Expander Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D5CD601B29E83900CBA068 /* Build configuration list for PBXNativeTarget "SFArk-Expander Tests" */;
+			buildPhases = (
+				B6D5CD521B29E83900CBA068 /* Sources */,
+				B6D5CD531B29E83900CBA068 /* Frameworks */,
+				B6D5CD541B29E83900CBA068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D5CD5D1B29E83900CBA068 /* PBXTargetDependency */,
+			);
+			name = "SFArk-Expander Tests";
+			productName = "SFArk-Expander Tests";
+			productReference = B6D5CD561B29E83900CBA068 /* SFArk-Expander Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6962F1A1B25BB390077CD5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Rod Münch";
+				TargetAttributes = {
+					B6962F211B25BB390077CD5D = {
+						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					B6D5CD551B29E83900CBA068 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B6962F211B25BB390077CD5D;
+					};
+				};
+			};
+			buildConfigurationList = B6962F1D1B25BB390077CD5D /* Build configuration list for PBXProject "SFArk-Expander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6962F191B25BB390077CD5D;
+			productRefGroup = B6962F231B25BB390077CD5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6962F211B25BB390077CD5D /* SFArk-Expander */,
+				B6D5CD551B29E83900CBA068 /* SFArk-Expander Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6962F201B25BB390077CD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6962F301B25BB390077CD5D /* Images.xcassets in Resources */,
+				B63C18B81B40611E00EA5D8A /* Credits.rtf in Resources */,
+				B6962F331B25BB390077CD5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5CD541B29E83900CBA068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D5CD651B29EC2800CBA068 /* Blanchet-1720.sf2 in Resources */,
+				B6D5CD621B29E85F00CBA068 /* Blanchet-1720.sfArk in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6962F1E1B25BB390077CD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6962F621B25E7060077CD5D /* ExpansionDropTargetView.m in Sources */,
+				B6962F541B25BBC70077CD5D /* sfklDiff.cpp in Sources */,
+				B6962F2E1B25BB390077CD5D /* ExpansionViewController.m in Sources */,
+				B6962F571B25BBC70077CD5D /* sfklString.cpp in Sources */,
+				B6962F551B25BBC70077CD5D /* sfklFile.cpp in Sources */,
+				B6962F561B25BBC70077CD5D /* sfklLPC.cpp in Sources */,
+				B6962F2B1B25BB390077CD5D /* main.m in Sources */,
+				B6962F5B1B25BCD50077CD5D /* ExpansionController.mm in Sources */,
+				B6962F291B25BB390077CD5D /* AppDelegate.m in Sources */,
+				B6962F581B25BBC70077CD5D /* sfklZip.cpp in Sources */,
+				B6962F521B25BBC70077CD5D /* sfklCoding.cpp in Sources */,
+				B6962F531B25BBC70077CD5D /* sfklCrunch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5CD521B29E83900CBA068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D5CD5B1B29E83900CBA068 /* SFArk_Expander_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6D5CD5D1B29E83900CBA068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6962F211B25BB390077CD5D /* SFArk-Expander */;
+			targetProxy = B6D5CD5C1B29E83900CBA068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6962F311B25BB390077CD5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6962F321B25BB390077CD5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6962F401B25BB390077CD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B6962F411B25BB390077CD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B6962F431B25BB390077CD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SFArk-Expander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6962F441B25BB390077CD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SFArk-Expander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6D5CD5E1B29E83900CBA068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SFArk-Expander Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFArk-Expander.app/Contents/MacOS/SFArk-Expander";
+			};
+			name = Debug;
+		};
+		B6D5CD5F1B29E83900CBA068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SFArk-Expander Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFArk-Expander.app/Contents/MacOS/SFArk-Expander";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6962F1D1B25BB390077CD5D /* Build configuration list for PBXProject "SFArk-Expander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6962F401B25BB390077CD5D /* Debug */,
+				B6962F411B25BB390077CD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6962F421B25BB390077CD5D /* Build configuration list for PBXNativeTarget "SFArk-Expander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6962F431B25BB390077CD5D /* Debug */,
+				B6962F441B25BB390077CD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D5CD601B29E83900CBA068 /* Build configuration list for PBXNativeTarget "SFArk-Expander Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D5CD5E1B29E83900CBA068 /* Debug */,
+				B6D5CD5F1B29E83900CBA068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6962F1A1B25BB390077CD5D /* Project object */;
+}
